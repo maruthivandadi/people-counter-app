@@ -6,17 +6,44 @@ body {
     text-align: center;
 }
 
+
+#main-title {
+
+  display: inline-block;      /* box fits text */
+  padding: 12px 24px;         /* space inside box */
+  background-color: #000000b3; /* semi-transparent black */
+  color: #ffffff;
+  border-radius: 12px;        /* round corners */
+}
+
+#main-division{
+    
+  display: inline-block;      /* box fits text */
+  padding: 12px 24px;         /* space inside box */
+  background-color: #000000b3; /* semi-transparent black */
+  color: #ffffff;
+  border-radius: 12px;        /* round corners */
+
+}
+
+
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #ffffff;
+
 }
 
 h2 {
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
+    color: black;
 }
 
+#count-el{
+    color: black;
+}
 button {
     border: none;
     padding-top: 10px;
@@ -27,6 +54,9 @@ button {
     margin-bottom: 5px;
     border-radius: 5px;
 }
+#count-el{
+    color: white;
+}
 
 #increment-btn {
     background: darkred;
@@ -36,6 +66,6 @@ button {
     background: darkgreen;
 }
 
-#save-el,p{
+#save-el{
     color: white;
 }

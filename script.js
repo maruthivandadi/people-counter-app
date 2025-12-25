@@ -81,6 +81,7 @@ let saved = 0
 let countEl = document.getElementById("count-el")
 let svcount = document.getElementById("save-btn")
 let saveEl = document.getElementById("save-el")
+let totalSum = document.getElementById("total-passenger")
 
 function increment()
 {
@@ -91,9 +92,14 @@ function increment()
 }
 
 
+function sum(){
+   
+}
+
 function save(){
     
-    saveEl.innerText +="-" + count
+    saveEl.innerText += "-" + count
+    totalSum.innerText += count
     countEl.innerText = 0
     count = 0
     //console.log("saved content : ",saved)
@@ -101,6 +107,8 @@ function save(){
     
     return
 }
+
+
 
 // string in javascript
 // let username = "Maruthi Vandadi"
