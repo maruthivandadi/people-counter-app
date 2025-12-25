@@ -80,21 +80,24 @@ let saved = 0
 
 let countEl = document.getElementById("count-el")
 let svcount = document.getElementById("save-btn")
+let saveEl = document.getElementById("save-el")
 
 function increment()
 {
-    count = count + 1
-    console.log(count)
+    count += 1
+    //console.log(count)
     //document.getElementById("count-el").innerText = count //This is one of the way
     countEl.innerText = count
 }
 
 
 function save(){
-    saved = count
+    
+    saveEl.innerText +="-" + count
     countEl.innerText = 0
     count = 0
-    console.log("saved content : ",saved)
+    //console.log("saved content : ",saved)
+    
     
     return
 }
