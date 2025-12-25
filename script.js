@@ -92,14 +92,12 @@ function increment()
 }
 
 
-function sum(){
-   
-}
+
 
 function save(){
     
     saveEl.innerText += "-" + count
-    totalSum.innerText += count
+    //totalSum.innerText += count
     countEl.innerText = 0
     count = 0
     //console.log("saved content : ",saved)
